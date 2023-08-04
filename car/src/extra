@@ -1,0 +1,116 @@
+
+
+
+
+
+
+
+// App.js
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      {/* Navbar */}
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+
+      {/* Banner Section */}
+      <section className="banner">
+        <h1>Welcome to Our Services</h1>
+        <p>Providing top-notch services for all your needs.</p>
+      </section>
+
+      {/* Services Section */}
+      <section className="services">
+        <h2>Our Services</h2>
+        <div className="service-card">
+          <h3>Service 1</h3>
+          <p>Description of Service 1 goes here.</p>
+        </div>
+        <div className="service-card">
+          <h3>Service 2</h3>
+          <p>Description of Service 2 goes here.</p>
+        </div>
+        <div className="service-card">
+          <h3>Service 3</h3>
+          <p>Description of Service 3 goes here.</p>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer>
+        <p>&copy; {new Date().getFullYear()} Service-Based Website. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+// code csss
+
+
+/* App.css */
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.banner {
+  background-color: #f1f1f1;
+  padding: 40px 0;
+}
+
+.banner h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.services {
+  padding: 40px 0;
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
