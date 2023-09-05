@@ -1,0 +1,55 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-container h1{
+  text-align: center;
+  background-image: linear-gradient(to left,#ece6da,#afae65,#5eb65b,#0a6b36,#042a36)!important;
+  }
+
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .register-button,
+  .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button {
+    background-color: #449f4f;
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: rgb(215 42 42);
+    color: #000;
+  }
+  
+  @media (max-width: 480px) {
+    .register-container {
+      width: 100%;
+    }
+  }
+  

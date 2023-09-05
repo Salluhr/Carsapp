@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+}
+
+.navbar{
+    background-image: linear-gradient(to left,#ece6da,#afae65,#5eb65b,#0a6b36,#042a36)!important;
+  
+}
+.container-fluid a{
+    color:black !important
+  
+}
+
+ form input{
+    height:6vh;
+    margin-top:4%;
+    border-radius: 8px;
+}
+
+form button{
+    height:6vh;
+    
+    margin-left: 2%;
+    border-radius: 8px;
+} 

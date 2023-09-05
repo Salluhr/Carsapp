@@ -1,0 +1,19 @@
+
+        /* <div className="checked-brands">
+          <h2>Checked Car Brands</h2>
+          <ul>
+            {checkedBrands.map((brand) => (
+              <li key={brand}>{brand}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* ------Display List Of colors----------- 
+        <div className="checked-brands">
+          <h2>Checked Car Color</h2>
+          <ul>
+            {checkedcolor.map((colour) => (
+              <li key={colour}>{colour}</li>
+        //     ))}
+          </ul>
+        </div> */
