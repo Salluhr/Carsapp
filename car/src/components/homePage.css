@@ -1,11 +1,12 @@
 .home-container {
-    background-image: linear-gradient(to left,#ece6da,#afae65,#5eb65b,#0a6b36,#042a36)!important;
+  background-image: linear-gradient(to left,#ece6da,#afae65,#5eb65b,#0a6b36)!important;
     background-position: center;
     height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 1px 2px 3px;
+   
   }
   
   .home-content {
@@ -17,14 +18,14 @@
   .home-content h1 {
     font-size: 40px;
     text-align: center;
-    
     padding-top:10% ;
+    color: #042a36
   }
   
   .home-content p {
     font-size: 18px;
-    
     text-align: center;
+    color: #042a36
   }
 
   .img-content {
@@ -35,46 +36,105 @@
   .img-content img{
     width:90%;
     height:100%;
-    
   }
 
   /* ---------service css--------------*/
   .container{
-    margin-bottom: 5%;
-  }
-#service{
-    padding:80px 0
+    margin-bottom: 10%;
+    width: 100% !important;
   }
   .services{
    margin-top: 5%;
-    width:33%;
-   height:70vh;
-   border-radius: 6px;
-    box-shadow: 2px 3px 4px 3px;
-     
- }
+   margin-left: 5%;
+   margin-bottom: 5%;
+   width:90%;
+   height:50vh;  
+   border-bottom: 2px groove #042a36;
+   border-top: 2px groove #042a36;
+   border-radius: 40px;
+  }
   .service-img{
-      width:100%;
-      height:50%
+    height:100%;
+      width:50%;
+      float: left;
   }
   .service-img img{
-    width:100%;
-    height:100%
-}
+    width:80%;
+    margin-left: 10%;
+    height:100%;
+     /* margin-bottom: 5%; */
+} 
 
 .service-txt{
-    width:100%;
+    width:50%;
+    float: left;
+    height:100%;
+    /* overflow-y: scroll; */
+}
+.service-txt h4{
+  width:80%;
+  margin-left: 10%;
+  text-align: center;
+  font-size: 2rem;
+  color: #042a36;
+ 
+  /* height:20% */
+}
+.service-txt p{
+  width:80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  /* height:70% */
+}
+
+
+/* ----------------------------Media Query ----------------------- */
+
+@media screen and (max-width:577px){
+
+  /* ----------------Main Navbar Section ------------------- */
+
+  .home-container {
+       height: 40vh;
+  }    
+   .home-content h1 {
+      font-size: 20px;
+    }
+ .home-content p {
+      font-size: 13px;
+  }
+
+  /* ----------------Services Section ------------------- */
+   .services{
+   height:80vh;  
+  }
   
+  .service-img{
+    height:50%;
+      width:100%;
+      float: unset;
+  }
+.service-txt{
+    width:100%;
+    float: left;
     height:50%;
     overflow-y: scroll;
 }
 .service-txt h4{
-  justify-content: center;
-  height:20%
+   font-size: 1.5rem;
+  color: #042a36;
+  position: sticky;
+ 
+  /* height:20% */
 }
 .service-txt p{
-  width:90%;
-  margin-left: 5%;
+  width:80%;
+  margin-left: 10%;
   margin-top: 5%;
-  height:75%
+  /* height:70% */
+
+}
+
+
+
 }

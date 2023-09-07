@@ -3,17 +3,17 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
 import HomePage from './components/homePage';
 import ListingPage from './components/listingPage';
-import DetailsPage from './components/detailsPage';
+import Details from './components/detailsPage.js';
 import Footer from './components/footer';
 import LoginPage from './components/login/login';
 import PasswordResetPage from './components/login/resetpass';
 import RegisterPage from './components/login/registrationPage';
-import CarList from './components/carlist';
+
 import './components/styles.css';
 import Cars from './data/cars';
 import Info from './data/info';
 
-function App(props) {
+function App() {
 
 
   return (
@@ -27,9 +27,9 @@ function App(props) {
          <Route path='/login/login.js' element={<LoginPage />} />
           {/* <Route path='/login/resetpass' element={<PasswordResetPage />} /> */}
           <Route path='/login/registrationPage.js' element={<RegisterPage />} />
-          <Route path='/detailsPage' element={<DetailsPage />} />
+          <Route path='/detailsPage.js' element={<Details />} />
           <Route path='/listingPage' element={<ListingPage/>} />
-          <Route path='/carlist' element={<CarList/>} />
+       
         </Routes>
        
         <Footer />

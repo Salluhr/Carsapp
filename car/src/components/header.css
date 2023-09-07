@@ -3,11 +3,11 @@ body{
 }
 
 .navbar{
-    background-image: linear-gradient(to left,#ece6da,#afae65,#5eb65b,#0a6b36,#042a36)!important;
-  
+    background-image: linear-gradient(to left,#ece6da,#afae65,#5eb65b,#0a6b36)!important;
+   
 }
 .container-fluid a{
-    color:black !important
+    color: #042a36 !important
   
 }
 

@@ -1,0 +1,56 @@
+#mainContent{
+    width:90%;
+    margin-left:5%;
+    margin-top:2%;
+    display: inline-block;
+}
+.imgDiv{
+    height:400px;
+    width:40%;
+    float: left;
+    border:5px groove gray;  
+}
+.imgDiv > img {
+    height:400px;
+    width:100%; 
+}
+
+.contentDiv{
+    width:55%;
+    margin-left:2%;
+    float: left;
+}
+.contentDiv h3{
+    color:rgb(11, 27, 11);
+}
+
+.feature_container{
+    width:100%;
+    display: inline-block;
+}
+figure{
+    float: left;
+    margin-left:5%;
+}
+
+.featureIcon{
+    height:100px;
+    width:100px;
+}
+.imgIcon{
+    height:100px;
+    width:100px;
+    margin-left:2%
+}
+.contentDiv h3{
+    color:rgb(11, 27, 11);
+    font-size: 1.2rem;
+}
+.contentDiv span{
+    color:rgb(69, 82, 69);
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+
+

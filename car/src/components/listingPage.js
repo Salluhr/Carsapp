@@ -63,7 +63,7 @@ function ListingPage(){
         {/* ---------------Brand Div------------------ */}
         <div className="car-brands">
           <details>
-          <summary>Filter By Brand</summary>
+          <summary>Brand</summary>
           
           {carBrands.map((brand) => (
             <label key={brand} className="car-brand-label">
@@ -83,7 +83,7 @@ function ListingPage(){
 
         <div className="car-brands">
           <details>
-          <summary >Filter By Colour</summary>
+          <summary >Colour</summary>
           
           {carColor.map((colour) => (
             <label key={colour} className="car-brand-label">

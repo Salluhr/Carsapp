@@ -23,7 +23,7 @@ function Header () {
               </li>
               
             </ul>
-            <form style={{height:'6vh',width:'30%',marginTop:'-2%',}}   >
+            <form style={{height:'6vh',width:'30%',marginTop:'-1%',}}   >
               <input  type="search" placeholder="Search" aria-label="Search" />
               <button className='btn btn-primary' type="submit">Search</button>
               <button  className='btn btn-success' type="submit" onClick={()=>{navigateTo('/login/login.js');}} >Login</button>
