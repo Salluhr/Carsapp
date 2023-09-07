@@ -98,8 +98,6 @@ function ListingPage(){
           ))}
             </details>
         </div>
-        
-          
       </div>
 
       {/*------------List of cars------------------ */}
